@@ -1,0 +1,81 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.bg{
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(201, 161, 135));
+    height: 550px;
+}
+
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hero{
+    width: 500px;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.cart{
+    width: 25px;
+    height: 20px;
+}
+nav{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 600px;
+      
+}
+.col:first-child{
+    padding: 60px;
+}
+h1,p,button{
+    margin: 20px;
+}
+button{
+    background-color: rgba(105, 211, 63, 0);
+    border: 3px solid white;
+    padding: 10px 20px;
+    color: rgb(19, 15, 15);
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+
+}
+button:hover{
+    background-color: rgb(196, 91, 50);
+    color: white;
+    border: none;
+}
+h2{
+    margin: 40px auto 10px ;
+    text-align: center;   
+}
+hr{
+    border: 2px solid red;
+    width: 6%;
+    margin: auto;
+    border-radius: 5px;
+}
+.FeaturedProducts {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.FeaturedProducts img{
+    width: 200px;
+    margin: 5px;
+    border-radius: 15px;
+}
